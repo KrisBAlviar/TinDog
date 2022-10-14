@@ -1,0 +1,179 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  font-weight: 900;
+  color: white;
+}
+
+.row {
+  margin-left: 138.5px;
+  margin-right: 138.5px;
+}
+
+.colored {
+  background-color: #FF4C68;
+}
+
+.color-white {
+  color: white;
+}
+
+.color-white:hover {
+  text-decoration: underline;
+}
+
+.nav-link {
+  margin-right: 18px;
+}
+
+.big-heading {
+  line-height: 1.5;
+  font-size: 3.5rem;
+  text-align: center;
+}
+
+.big-heading {
+  line-height: 1.5;
+  font-size: 3.5rem;
+  text-align: center;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+}
+
+.title-image {
+  position: relative;
+  width: 41%;
+  transform: rotate(25deg);
+  left: 200px;
+}
+
+.image-center {
+}
+
+.container-fluid {
+  display: flex;
+  justify-content: center;
+}
+
+.button-div {
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  margin-top: 23px;
+  margin-bottom: 23px;
+  margin-right: 13px;
+}
+
+.button-center {
+  display: flex;
+  justify-content: center;
+}
+
+.navbar {
+  padding-bottom: 0;
+}
+
+.stick-it {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+.reviews {
+  background-color: white;
+  position: relative;
+  z-index: 2;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding-bottom: 8px;
+}
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+.download {
+  width: 143px;
+}
+
+.download-and {
+  width: 182px;
+}
+
+.download, .download-and {
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+.download-h2 {
+  display: inline-block;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+}
+
+.navbar-brand {
+  font-size: 2rem;
+}
+.carousel-item {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.hrule {
+  width: 67rem;
+  margin: 0 auto;
+}
+
+.social-icon:hover {
+  color: #FF4C68;
+}
+
+.footer {
+  margin-left: 138.5px;
+  margin-right: 138.5px;
+  margin-top: 28px;
+  margin-bottom: 28px;
+
+}
+
+.footer-words {
+  /* width: 67rem; */
+}
+
+.credit {
+  padding-top: 16px;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-download {
+  margin-bottom: 16px;
+}
+
+@media (max-width: 1242px) {
+  .title-image {
+    position: static;
+    width: 50%;
+    transform: rotate(0);
+  }
+
+  .image-center {
+    display: flex;
+    justify-content: center;
+  }
+}
